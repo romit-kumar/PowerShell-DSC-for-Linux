@@ -57,7 +57,7 @@ def initialize():
             else:
                 print_success_message = True
             if print_success_message:
-                print "Successfully added omsagent secondary group to nxautomation user."
+                print ("Successfully added omsagent secondary group to nxautomation user.")
 
     # change permissions for the keyring.gpg
     process, output, error = linuxutil.popen_communicate(["sudo", "chmod", "g+r",
